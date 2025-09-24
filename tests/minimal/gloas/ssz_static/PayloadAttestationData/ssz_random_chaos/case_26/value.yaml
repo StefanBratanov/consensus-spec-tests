@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:07544881db159072ca3618c66b11c3a047badc735929d5cf9abaf001a05efdd3
-size 162
+beacon_block_root: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+slot: 9479106881391094613
+payload_present: false
+blob_data_available: false

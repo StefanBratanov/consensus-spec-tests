@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae3e2c8db543fe8ac50f9e48dd51fc2d146da98880f62562c42ba0e8ca959bda
-size 159
+object_root: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+domain: '0x0000000000000000000000000000000000000000000000000000000000000000'

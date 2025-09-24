@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f4aca4b139e87688b05c4c62fff85a0c72bb8d7871e0c541a87c7f4fb7a65e13
-size 455
+# Mainnet preset - EIP7441
+
+# Misc
+# ---------------------------------------------------------------
+# 2**2 (= 4) blinders
+CURDLEPROOFS_N_BLINDERS: 4
+# 2**14 (= 16,384) trackers
+CANDIDATE_TRACKERS_COUNT: 16384
+# 2**13 (= 8,192) trackers
+PROPOSER_TRACKERS_COUNT: 8192
+# 2**7 - CURDLEPROOFS_N_BLINDERS (= 124) validators
+VALIDATORS_PER_SHUFFLE: 124
+# 2**15 (= 32,768) bytes
+MAX_SHUFFLE_PROOF_SIZE: 32768
+# 2**10 (= 1,024) bytes
+MAX_OPENING_PROOF_SIZE: 1024

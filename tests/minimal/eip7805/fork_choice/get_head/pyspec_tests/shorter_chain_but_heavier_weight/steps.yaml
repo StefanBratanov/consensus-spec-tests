@@ -1,3 +1,109 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b8127d3841659eb10d0075ba6517915b3ad824e555b725877ad166b9a7ca7d9
-size 4057
+- checks:
+    head:
+      slot: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+- {tick: 6}
+- checks:
+    time: 6
+    head:
+      slot: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- {block: 
+    block_0xd86f7b3b0167183d2b05a0f64e30acc2c6514ace05142c0572623bfa02283d90, 
+    valid: true}
+- checks:
+    time: 6
+    head:
+      slot: 1
+      root: '0xa85e9a8601c3b7b8ac6addb4d0c1c79daa3cd95133c6f25a0a6ba3f50333964c'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    proposer_boost_root: '0xa85e9a8601c3b7b8ac6addb4d0c1c79daa3cd95133c6f25a0a6ba3f50333964c'
+- {tick: 12}
+- checks:
+    time: 12
+    head:
+      slot: 1
+      root: '0xa85e9a8601c3b7b8ac6addb4d0c1c79daa3cd95133c6f25a0a6ba3f50333964c'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- {block: 
+    block_0x06f758093ce22beb657fa1bbdbb0ec0909b51f743ee711f97c595ca9843d928f, 
+    valid: true}
+- checks:
+    time: 12
+    head:
+      slot: 2
+      root: '0xcf30cf8b35ff5d71e2686a8026e85e19cbeab9aae4493af76248602c67fe7167'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    proposer_boost_root: '0xcf30cf8b35ff5d71e2686a8026e85e19cbeab9aae4493af76248602c67fe7167'
+- {tick: 18}
+- checks:
+    time: 18
+    head:
+      slot: 2
+      root: '0xcf30cf8b35ff5d71e2686a8026e85e19cbeab9aae4493af76248602c67fe7167'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- {block: 
+    block_0x6a00eb4e62ba951041f94758e0cc337b2f266ed94e527714640ed3b411961c9a, 
+    valid: true}
+- checks:
+    time: 18
+    head:
+      slot: 3
+      root: '0xea15bb2ae016f5981361a16a3b6257fada55860e10b689271433f0c354edde44'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    proposer_boost_root: '0xea15bb2ae016f5981361a16a3b6257fada55860e10b689271433f0c354edde44'
+- {block: 
+    block_0xcea1c8cef69053d011b5a4a4bdfd14a3eef3c1a96b0b3079177868236f93162e, 
+    valid: true}
+- checks:
+    time: 18
+    head:
+      slot: 3
+      root: '0xea15bb2ae016f5981361a16a3b6257fada55860e10b689271433f0c354edde44'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xeee1cb372313d217a5f051c82e007c880b3d413370caad567cadf6be73c2753d'
+    proposer_boost_root: '0xea15bb2ae016f5981361a16a3b6257fada55860e10b689271433f0c354edde44'
+- {attestation: 
+    attestation_0xfe4fad75eedf3d0860d2c676823112a27e8c5808b72dbda81a6de48a428ead29}
+- checks:
+    head:
+      slot: 1
+      root: '0x36b916ee574018645fe6e1c856597383786011160d83014c2b88a214b1650b93'

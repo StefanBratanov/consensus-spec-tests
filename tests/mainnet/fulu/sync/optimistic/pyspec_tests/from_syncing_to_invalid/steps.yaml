@@ -1,3 +1,103 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c0ba94a8e78270352934729c5134da84f30729043159eabf7b63cfa70577b402
-size 3990
+- {tick: 15744}
+- checks:
+    time: 15744
+    head:
+      slot: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- block_hash: '0x202042ab7373a167de713a539db74444c596ddee1dd619fba7f0c71401724875'
+  payload_status:
+    status: VALID
+    latest_valid_hash: '0x202042ab7373a167de713a539db74444c596ddee1dd619fba7f0c71401724875'
+    validation_error: null
+- {block: 
+    block_0x7db7a97391105f0d5c093b662a380614609a01b83b92c8e00c680f74089f5547, 
+    valid: true}
+- checks:
+    head:
+      slot: 33
+      root: '0x0cf35a4a7d4c2dc8ff0a719776aa7c6f2bf2bf521d051aef5ef8b3d4853b439f'
+- block_hash: '0xfa2e59f30a1f3d2bb614760fb2c69dca194ebd5ad166019073ef24524e565d05'
+  payload_status:
+    status: VALID
+    latest_valid_hash: '0xfa2e59f30a1f3d2bb614760fb2c69dca194ebd5ad166019073ef24524e565d05'
+    validation_error: null
+- {block: 
+    block_0x27c008151f4acdbdb1ab020c0033c8a6d794dae93656172c06a7ff1a1ff626ba, 
+    valid: true}
+- checks:
+    head:
+      slot: 34
+      root: '0x8c117fe54df3926c46dfba687438f11bf1ea62cbbe0ab5de2a396eb48afa610a'
+- block_hash: '0xb995391a9e469dc22c9414a90f8f4dc2f27fbc7ff5f86c3a8f6fe31b0f2a0061'
+  payload_status:
+    status: VALID
+    latest_valid_hash: '0xb995391a9e469dc22c9414a90f8f4dc2f27fbc7ff5f86c3a8f6fe31b0f2a0061'
+    validation_error: null
+- {block: 
+    block_0x334e5d9c01537016daa8e3dc72896f8f43a2f608700a02cf1c2c9140063daa11, 
+    valid: true}
+- checks:
+    head:
+      slot: 35
+      root: '0x85c1c370fe4daa187bb075a6afce4bad73cbfb231578785a317199fe106b2205'
+- block_hash: '0xccbe11bf1df476841993e24821bfc39f649ae774500edbf51e10b8f466123175'
+  payload_status:
+    status: VALID
+    latest_valid_hash: '0xccbe11bf1df476841993e24821bfc39f649ae774500edbf51e10b8f466123175'
+    validation_error: null
+- {block: 
+    block_0x4d43f846396d34e93366ef5aaa1896e2b28af1aacc44967a124003e8068604dd, 
+    valid: true}
+- checks:
+    head:
+      slot: 36
+      root: '0x5a14a7a60e75f9016efec6adcd58b3c780614e60278cb0b15825961197c6b066'
+- block_hash: '0xb31e0d9ea127c6d5f55ba198366d9dfe86e7fdd7dafea935e952e09097e0420c'
+  payload_status: {status: SYNCING, latest_valid_hash: null, validation_error: 
+      null}
+- {block: 
+    block_0xdfca3b0ea5a8b8836713ea7bbd78353317ccb413e36184cf84ac2a2dfa0d1150, 
+    valid: true}
+- checks:
+    head:
+      slot: 36
+      root: '0x5a14a7a60e75f9016efec6adcd58b3c780614e60278cb0b15825961197c6b066'
+- block_hash: '0x3dac59f61596764493deb49a2006f9a3ce6705114e15890efb2e43b62a4d721e'
+  payload_status: {status: SYNCING, latest_valid_hash: null, validation_error: 
+      null}
+- {block: 
+    block_0x2a8fba06cde44d57559310ef8fdb3f61ca9c548a03f74f1eead83dc8ed72aac3, 
+    valid: true}
+- checks:
+    head:
+      slot: 35
+      root: '0x7378df2195300f39f86ca466005183bf13aa05cb37f9bb7d9b6841eb9abc23ba'
+- block_hash: '0x567ec890d6d9aa8c69940c5756bbf9a79c309c1a1a4bfbdfc5809e56624d6645'
+  payload_status: {status: SYNCING, latest_valid_hash: null, validation_error: 
+      null}
+- {block: 
+    block_0xaf64f3012c50de63ff381f5dfbb19eee83298d78b8ef67a389ebf4fc70caaef5, 
+    valid: true}
+- checks:
+    head:
+      slot: 36
+      root: '0xd809df79d2078e2bc27414b2a50cc6f090b988dfb08eba1fef2dcc474840bd24'
+- block_hash: '0xf6eed810088bd21364a5e1cc69f135129645424ce44ba3ca7e712d4a2f7333fc'
+  payload_status:
+    status: INVALID
+    latest_valid_hash: '0x202042ab7373a167de713a539db74444c596ddee1dd619fba7f0c71401724875'
+    validation_error: invalid
+- {block: 
+    block_0x59c63ff608cecd082302801d5cba61a07e0fffa38ea9405bd0849e4f5bcbf4b6, 
+    valid: false}
+- checks:
+    head:
+      slot: 36
+      root: '0x5a14a7a60e75f9016efec6adcd58b3c780614e60278cb0b15825961197c6b066'

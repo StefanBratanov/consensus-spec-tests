@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c1a0915f742e89ceb127fe3a2bdc52cc4b9446fd585543b0ac9de188b7d369cf
-size 1314
+index: 11816413880491880248
+column: []
+kzg_commitments: []
+kzg_proofs: []
+beacon_block_root: '0x87305ee5bf7d194effe90b4bcecc5fc4b270e238e06043a4fe3faa8d888cbb01'

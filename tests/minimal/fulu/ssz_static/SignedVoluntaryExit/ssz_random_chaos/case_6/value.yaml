@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5baa57dd6f1024b1572fe8c08db293ef6d9f068e735c1759e55c49cbd254f107
-size 285
+message: {epoch: 1627102999436074886, validator_index: 5791621244246764502}
+signature: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'

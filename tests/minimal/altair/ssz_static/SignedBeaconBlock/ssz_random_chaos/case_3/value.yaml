@@ -1,3 +1,75 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a5ce18fa665e293798a11679cfae8280357ccbbe53b061a5bfa24c0c458bf7b8
-size 12051
+message:
+  slot: 1298427498042529935
+  proposer_index: 1753377120291049093
+  parent_root: '0x9a246a94a0e04be4c2811b0f4239c2f7fdcc3ead6fd2bbc247c00246b1c0f03a'
+  state_root: '0x022e1ed4d1b721403a054d7221af6cfd868c525ad516c63f411b7bbd0874ea88'
+  body:
+    randao_reveal: '0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+    eth1_data:
+      deposit_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+      deposit_count: 0
+      block_hash: '0xbff94df93414624d4caace58e3a1d35de8e228d709a3426be7bf90974c4d8695'
+    graffiti: '0x56b95c31defa954bcff50489fce466753d8445261c420f156865890ef4956e65'
+    proposer_slashings: []
+    attester_slashings: []
+    attestations:
+    - aggregation_bits: '0x03'
+      data:
+        slot: 16862732031803735947
+        index: 13477465461178304566
+        beacon_block_root: '0x69bafa16738c6dd392555c1e88a6e81e8aed72aecfe8a5e5c91719259805e637'
+        source:
+          epoch: 18446744073709551615
+          root: '0x7e070982904900c2d81a8e800d9479b68f9995e82ecf973e0464fd888352dc14'
+        target:
+          epoch: 3357411976568102696
+          root: '0x8ba72ff11441e51fc8e52d2da5ab880bd3760a1e7c62a32f3479b0d00c0ab698'
+      signature: '0x3d296e07dee01654c1f58d0d12b26112571b335ea251330812cba88ccf0265687bccaeafccf12fe0cf40548ee03c3df39d6eaeaeff89194fa16064c0b6aacde50032a084ef3b8f474124147732c2d6f1e0478bf6dcc77c80b84e80cba41ba7db'
+    deposits:
+    - proof:
+      - '0xb9653053441cde48ec4b85a48ea97545ad23bf19e5b7397f97597d3577ec7ef1'
+      - '0x0000000000000000000000000000000000000000000000000000000000000000'
+      - '0x9dfb32985523491f13d4c4d3ba96940cf14048896800df0aa63af9dcf0d366c4'
+      - '0xc0d61b57a5b4e5727d464aa4b8eafc63e2af51a530b6c6b96a3129538b8cb042'
+      - '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+      - '0x5cae1d5d189c5a944f537045c73516fe070b375ff2164ec3246b27227f34cd33'
+      - '0x135d6de3bd2af38bdee436fc82c29f64f9d0105dfc79c8f8a58f0ef3f16a236e'
+      - '0xe5343c594d529174c37a9b719b53e187357d38b7ad454967c3ab0775e25d5529'
+      - '0x54abc5a1c9d3e312fe009c27b76bf6893faec6e6dc3109d36916134d1b8f765d'
+      - '0x9084d8a6a3b5cdc15c6a3236f0f34394376d0aecdbcb5247559045ae043878af'
+      - '0xf97a265c0318f48c7ec5b6eacbc16344d1e74639931ef267be3cd84753104217'
+      - '0x5b1ba7279b70500131b01b1e643740c11237fe1c2b1f3e9f12d34d1743306121'
+      - '0x310cf818151a84a9c5f61fbeba2978181f6583fec7fc3baea40c28cd20de3f9f'
+      - '0x0000000000000000000000000000000000000000000000000000000000000000'
+      - '0xb24defd4537f742519207442f061dc6c678d9a69b020e3a71b754787c054fac0'
+      - '0x477349a78123c7a44a5bd6315d33dc21aa468968ca7e5f4fe0509a539033d044'
+      - '0xf1ff75ae4771b508160606898b47a91f0f7f78679083b8b517c62026a1754aac'
+      - '0xc2262a31dfe23f6d70ab8e4ff034790ed0a7d99cffbd6969a691b95ee927c602'
+      - '0x0000000000000000000000000000000000000000000000000000000000000000'
+      - '0x0000000000000000000000000000000000000000000000000000000000000000'
+      - '0xde035a39e2fcf097281d98fc5f214b9c1eb0fd37787e3477c9f538cde9f1a178'
+      - '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+      - '0xaa3394c952b854a516282a31975085998021d5d53c93af0d8f3a11257d9c9d3f'
+      - '0x4a3ed88c903a28adb5c0fd505c56d96eef30b6aaff822ccc169d50531253530d'
+      - '0xec27fb172bd95c13338ed5b59cb04d372f351e2f6fae8433c3e675896844d5c8'
+      - '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+      - '0x9426641cfb7b151b020a490e7bd9393f069b1b9a3e50517c029315bd35c125d0'
+      - '0x1252198e9933ec36cde45de1065ef0788616665d9043d69d7ea6f794bfd73163'
+      - '0x20eb18777fb5e79b0d5a5b2ae177d1efb95c626e863b6d7f92de9c6c07e50329'
+      - '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+      - '0x73d6cd88e79688e5e480d941943bcc0a28a604ec8a3ee62a07b219f394b7a9c2'
+      - '0xa0efed7f0586c9e1700e9e4dd4f774e961d70d5c50358391463dc8276e62aecb'
+      - '0x56034fe5cacb11fa5846685a6a2370912a7bf52dbf6b456028101ba17e349653'
+      data:
+        pubkey: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+        withdrawal_credentials: '0xa3b174e75ab7072f0c0e1aba9e8b44659de4b2c46d5ee7c823f6abcdbe8056af'
+        amount: 1627227341796437790
+        signature: '0x38c83f44d8482c90e5d6d7248959a6ec55e7de7d0c1e934787b1f77f0b5f2c80535cf236ac40e9ed6d33818f6be3abec496cbd87020ea9e5ec78475c45430a4ac616f6b34ef29b3bbcae8209f7714c1ca4f49002e8304278bd7a39571a384c39'
+    voluntary_exits:
+    - message: {epoch: 18446744073709551615, validator_index: 
+          10910532455226061791}
+      signature: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+    sync_aggregate:
+      sync_committee_bits: '0xbe1400d8'
+      sync_committee_signature: '0xff24ba6cd0f347f7b472d3ee267aa404afaed8a89eef395e0bfdd50e4b970dd55e720c6ff5bd1fc3beaa449545623ad1387219944a433ffa248ace1689cc093c336e27fcc1bac36bedfd12eab448bf31209ce8bfa52d48b21e3ecf22c54e5014'
+signature: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf663f5c85e685b4ae8d5069967e4c20838f73412d400b778bbd13c11e99b125
-size 458
+# Mainnet preset - Gloas
+
+# Misc
+# ---------------------------------------------------------------
+# 2**9 (= 512) validators
+PTC_SIZE: 512
+
+# Max operations per block
+# ---------------------------------------------------------------
+# 2**2 (= 4) attestations
+MAX_PAYLOAD_ATTESTATIONS: 4
+
+# State list lengths
+# ---------------------------------------------------------------
+# 2**20 (= 1,048,576) builder pending withdrawals
+BUILDER_PENDING_WITHDRAWALS_LIMIT: 1048576

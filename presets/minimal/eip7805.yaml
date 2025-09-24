@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:88f117d83d9c045bdf2db2ef8990328b1a1daeea69f55bc6d86de2691da37701
-size 180
+# Minimal preset - EIP7805
+
+# Inclusion list committee
+# ---------------------------------------------------------------
+# 2**4 (= 16) validators
+INCLUSION_LIST_COMMITTEE_SIZE: 16

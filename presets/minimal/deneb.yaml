@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c80127f8479d94e572d26ff2bee8540648378830209ac2a1f9d91adfafeefef1
-size 572
+# Minimal preset - Deneb
+
+# Execution
+# ---------------------------------------------------------------
+# 2**12 (= 4,096) commitments
+MAX_BLOB_COMMITMENTS_PER_BLOCK: 4096
+
+# Networking
+# ---------------------------------------------------------------
+# floorlog2(get_generalized_index(BeaconBlockBody, 'blob_kzg_commitments')) + 1 + ceillog2(MAX_BLOB_COMMITMENTS_PER_BLOCK) (= 4 + 1 + 12 = 17)
+KZG_COMMITMENT_INCLUSION_PROOF_DEPTH: 17
+
+# Blob
+# ---------------------------------------------------------------
+# 2**12 (= 4,096) field elements
+FIELD_ELEMENTS_PER_BLOB: 4096

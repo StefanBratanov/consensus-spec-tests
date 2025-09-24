@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:689c32a65f98841b4eaa56515923ecdf43792720efa02b834dbbc91488e55bf2
-size 1855
+- checks:
+    head:
+      slot: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+- {tick: 24}
+- checks:
+    time: 24
+    head:
+      slot: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- {block: 
+    block_0xb3261f9482c361f474f61beacd80c0dff6a25551edf81b19665f8a59b2b6ff85, 
+    valid: true}
+- checks:
+    time: 24
+    head:
+      slot: 1
+      root: '0x7d147342fb5b81f2d24f3658ca8b18adf98f3bf587fa6b94ee04fbce2e6faaf7'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- {block: 
+    block_0x8759ad5ae29b5c0e3edccedba5744492da52cec01d49d83e9797d438edf14914, 
+    valid: true}
+- checks:
+    time: 24
+    head:
+      slot: 1
+      root: '0xfe201b5c6b6abdbd1e67386cd957cf366aefb778bfd59ec0040afeec4f37cb9d'
+    justified_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- checks:
+    head:
+      slot: 1
+      root: '0xfe201b5c6b6abdbd1e67386cd957cf366aefb778bfd59ec0040afeec4f37cb9d'

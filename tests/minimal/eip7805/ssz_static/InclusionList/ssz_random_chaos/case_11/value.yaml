@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc72ee95ddcb0148c0bb5b79c13347543a34e46c17428901957f17e2b3e54343
-size 168
+slot: 12822628868312041728
+validator_index: 3524093019732782057
+inclusion_list_committee_root: '0x564c418522f080521fd4deef2364eb835ff6a6f79f4b7aa82845e2285abf8d3b'
+transactions:
+- '0x'
+- '0xb4'
+- '0x'

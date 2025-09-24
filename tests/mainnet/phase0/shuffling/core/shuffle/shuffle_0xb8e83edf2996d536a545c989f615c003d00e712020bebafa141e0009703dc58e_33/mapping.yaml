@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16d2168d42ed74528b3d9c5966b308e236cfcdb91cddee8e161ae127ee5d6546
-size 222
+seed: '0xb8e83edf2996d536a545c989f615c003d00e712020bebafa141e0009703dc58e'
+count: 33
+mapping: [18, 3, 17, 10, 12, 27, 16, 2, 25, 13, 14, 28, 30, 11, 7, 23, 9, 0, 1, 
+    22, 15, 26, 29, 20, 24, 19, 8, 21, 5, 32, 31, 4, 6]

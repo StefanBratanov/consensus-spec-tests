@@ -1,3 +1,121 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:613ee8133d8014cb9ebf889599ae45ac9bde3f15d529b50a56572a1eea401537
-size 17053
+message:
+  slot: 3047325746267227038
+  proposer_index: 15149305049099978294
+  parent_root: '0x912a2c8b3241e455e1fa4861671cb057324964178baaa35e8f373ea5e2676dfa'
+  state_root: '0x6b5c709d72ea6b520ba5def1f5e7a4f55a2feda1548c6521aa3c69f84544fbff'
+  body:
+    randao_reveal: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+    eth1_data:
+      deposit_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+      deposit_count: 2715836730125525604
+      block_hash: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+    graffiti: '0x90d89eb4481b6ca45f524892f9444ed2012127bfbbd9810e92f5148c8981a5ad'
+    proposer_slashings: []
+    attester_slashings:
+    - attestation_1:
+        attesting_indices: [0]
+        data:
+          slot: 0
+          index: 10714816893851006898
+          beacon_block_root: '0xb89301419ca3d80d2d1f9947819aa1675428fec1c2f712b97dc112e53479922b'
+          source:
+            epoch: 6459546707369636630
+            root: '0xb630ebfa30cf8db633cbdb2bd6e340c87ae7c015cd5c483bbbdd5c8c842b2830'
+          target:
+            epoch: 9598659294614710398
+            root: '0x6ef4b520d97c9bbd778a0d4c9a4e3ac668fe555502a9299a5c4705e2b47ae509'
+        signature: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+      attestation_2:
+        attesting_indices: [0]
+        data:
+          slot: 18446744073709551615
+          index: 7104994101941185495
+          beacon_block_root: '0xadcc869d57ad1a726fc71d5afe0bf05adff8b578cec7f05c09c3d9b30e80dd4e'
+          source:
+            epoch: 18446744073709551615
+            root: '0x3e095687a0bcdad089da02d6920748d0f09262f4662ec4f96ed7d8391ce2abcf'
+          target:
+            epoch: 0
+            root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+        signature: '0x97ea1d799656d12ce2ee2e3b65c514507bb50cf25cca7840bb419d6c8730c26ae2c83e3744eb085384d271e21a30df9e150989fa21e83abf3af1e9fa795acfc2e58e60835a1a042d1af25a0c09fbce8dc7e6ba4b63f91bf2a8c6cf98c0a272cc'
+    attestations: []
+    deposits: []
+    voluntary_exits:
+    - message: {epoch: 18446744073709551615, validator_index: 0}
+      signature: '0x00507cc9982da4a01da2bebb5ed4d4b851d69e621d1d5dfdeb257e64d81979408bc335f69c47283b24cdba38434c57f020bfb55100815f00971450659e70f9415f6b93d89e051ce25f0ea6c92efee16c3ac7ea99e725b7b1eb2ed541d4a02225'
+    sync_aggregate:
+      sync_committee_bits: '0x76a2adfb'
+      sync_committee_signature: '0x8191e4bab835fdaca5487f414bc28db133c3f6980cd9a0953fd714665ad59c4bdde361e3cf474c9a205dc8d4a9099a15d221ec4be39d833e651f2496b5b0e96e7dbbb5313496029a0a2a28117947640ecfbe83d7525ae70ae004242116123c0c'
+    bls_to_execution_changes:
+    - message:
+        validator_index: 1795749937262017453
+        from_bls_pubkey: '0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+        to_execution_address: '0x443e7fa3e193bd38f91070807b4e8e7669363c75'
+      signature: '0xf39ba1308aaf981256c11c83690c110087c0047edf012fa8c29a4d76d6e0656b067c9edf57642a15bb0a22381426a92529f54dcbf6d793e6c9d62d2ffa9bdb3e9ab73dc998b0fbd5e1623b6865ef46453a4beeac116f96a2430b96e86d5e4e0d'
+    - message:
+        validator_index: 18446744073709551615
+        from_bls_pubkey: '0x3e70c85f4177d20c9b4d1c38909fd559def32cc74260eb199730bb5c64238ecf6f8fcee72e86f606f8a27e6b41efede4'
+        to_execution_address: '0x0000000000000000000000000000000000000000'
+      signature: '0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+    - message:
+        validator_index: 5894328443301763681
+        from_bls_pubkey: '0x9187dcc0d73c47a354c314f8e6c4c433ff1c845da0471ee0c08185bf3b45bf66cdbef1b6c8dd9e01d16bdb0e641d3835'
+        to_execution_address: '0xb6e6a5c672667d3b354e8c768d4b8ff6b00319c6'
+      signature: '0xacc8e24568224e8d861cb8096e4c6a351cf1cb76905a662097961271a9886da58f1deec4f7fbbf954779b08f9f5068caaff02b49c8ee26a6067f0e4900ce22e4f15f6a29d8f2d4fa90eb7372d825572c70327705b6f58829c65ab44d55877acd'
+    - message:
+        validator_index: 16792480825877560549
+        from_bls_pubkey: '0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+        to_execution_address: '0x191ec89c1f8f6a5552970f7d0a083fc78f1591ff'
+      signature: '0x709315dc23be84fe27a2129833cb61a7a8f6b6895b78f3c61d600deda0fab8d292fffdaba6c9c6a6d4f129310047930fd3f60967ccff0c98a1e6de0b3a269856f8e989c0e5ea1568164175950092d2cd6ec2a583fdc1527e4ba35601edcfa8a2'
+    - message:
+        validator_index: 1427409282371622047
+        from_bls_pubkey: '0xb7e72abec8f363aed25d12376327b353910b808be30c3581258400fb15eaab7ad7daa3b8cd3b23e27750232dfaf54fbe'
+        to_execution_address: '0xffffffffffffffffffffffffffffffffffffffff'
+      signature: '0x4c9c0e25f77c7bb04f3e26256167988b178b59d045b17f5f495c403dcc211ab66a6dd4779749acc34d3cc78a8edc433b769ea0b0c0c8086de0667a3460a0003168682ecb0b6d107ea7baf9c980ec6b3f7a072e9134e92fa1aeac85053ad4ff31'
+    - message:
+        validator_index: 0
+        from_bls_pubkey: '0xb56f7f4871d465b7ad87c9b97c7b07d7a673556d3585c6743a951cb47ba9d05429781a817c5920eb4f8d4111e2536a1e'
+        to_execution_address: '0x7ef3f9df77394bae9bdb16f33f7b4814ca871836'
+      signature: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+    signed_execution_payload_bid:
+      message:
+        parent_block_hash: '0x1a6ce95602b1067bb6d986dd7ee735ee053aa3cec35d6219edecb4b776f779a8'
+        parent_block_root: '0xd973fb17bb07a5ac5d18691ef54cb84bbdc777ea9fa34066ea8b40f132448b01'
+        block_hash: '0xc935611e16e81bb7eb9fda3f93b9956644c611c845862ccb63e1ea9f4d472b2b'
+        fee_recipient: '0xe5c05d0009342a10854e9b171cc6049e040221dd'
+        gas_limit: 18446744073709551615
+        builder_index: 2724775342612101144
+        slot: 15130900744101747304
+        value: 14940092607779403322
+        blob_kzg_commitments_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+      signature: '0xad45bf3c49ca097aff811002fe344a2e5cdb131d9f0d6fad88dff9af3a8baa3645f22c3ec343ea02137d18bede9df5449f1b8825bd1bf07fa4c836129f1209b694167520edaffa4d3990d6182486d071d3c068e26ebd4f8070ecdba556e54817'
+    payload_attestations:
+    - aggregation_bits: '0x01'
+      data:
+        beacon_block_root: '0xaa42e42d75c08483713a5488d9e33caa936ba9dc8db859e881b8c1d27c00d8c0'
+        slot: 0
+        payload_present: false
+        blob_data_available: false
+      signature: '0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+    - aggregation_bits: '0x02'
+      data:
+        beacon_block_root: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+        slot: 18446744073709551615
+        payload_present: false
+        blob_data_available: true
+      signature: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+    - aggregation_bits: '0x01'
+      data:
+        beacon_block_root: '0xdbf0da12ddf8b247c2f6c475fb3ec19d192f8140021818efb7b0eb27cdd4f3ab'
+        slot: 9824594245302544804
+        payload_present: true
+        blob_data_available: false
+      signature: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+    - aggregation_bits: '0x03'
+      data:
+        beacon_block_root: '0xd337a0ec6a79bc0c29d5712cc28bed5b1bbe88edf4a3bfac6f34194b2e11a85c'
+        slot: 0
+        payload_present: true
+        blob_data_available: false
+      signature: '0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+signature: '0xd18be2a5e05f31561a59be83e0181a849c6e8263f92502cf022140295eb617212d9b90a5a1a2ab747c178497f51555e4a930032d5278e7b95c535af965fdd2acc63801681bbb3bcc771c97ce605fa4e7e34f0405a18f1a7608408ad3ed2377c3'

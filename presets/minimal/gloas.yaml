@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:633b88a0f765302b120d0b7e704e9e60d88215b2bc498948b3b71fcafc4de182
-size 467
+# Minimal preset - Gloas
+
+# Misc
+# ---------------------------------------------------------------
+# [customized] 2**1 (= 2) validators
+PTC_SIZE: 2
+
+# Max operations per block
+# ---------------------------------------------------------------
+# 2**2 (= 4) attestations
+MAX_PAYLOAD_ATTESTATIONS: 4
+
+# State list lengths
+# ---------------------------------------------------------------
+# 2**20 (= 1,048,576) builder pending withdrawals
+BUILDER_PENDING_WITHDRAWALS_LIMIT: 1048576

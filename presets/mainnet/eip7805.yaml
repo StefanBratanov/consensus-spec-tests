@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6675c18f099321315f27c1a0de8138632071bfdea4037042016f2b811332e588
-size 180
+# Mainnet preset - EIP7805
+
+# Inclusion list committee
+# ---------------------------------------------------------------
+# 2**4 (= 16) validators
+INCLUSION_LIST_COMMITTEE_SIZE: 16

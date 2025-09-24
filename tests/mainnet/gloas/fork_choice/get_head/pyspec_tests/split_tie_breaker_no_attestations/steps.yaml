@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c31e92d9db896e055592c294f979c83c1ba0ff8bc3cfb5fcfe938254cf4fa06
-size 1855
+- checks:
+    head:
+      slot: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+- {tick: 24}
+- checks:
+    time: 24
+    head:
+      slot: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+    justified_checkpoint:
+      epoch: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- {block: 
+    block_0x6160d3187fdf4814faf97848446ae708ec2bd9b3ffe78d4d688a07602bcf8bff, 
+    valid: true}
+- checks:
+    time: 24
+    head:
+      slot: 1
+      root: '0x87b2743adf5c615886c30a9ce541b1040770da745aeaaf51fc40bbfc0c84ecae'
+    justified_checkpoint:
+      epoch: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- {block: 
+    block_0x7e02d0dbad34796867f6d48cd57479a280275c736bdcbb0b0585556c87fbe059, 
+    valid: true}
+- checks:
+    time: 24
+    head:
+      slot: 1
+      root: '0xc396ec13546bfb3e31a3c70348cda700908c4ed6310e51179afcc7fe5ff86332'
+    justified_checkpoint:
+      epoch: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+    finalized_checkpoint:
+      epoch: 0
+      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
+    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
+- checks:
+    head:
+      slot: 1
+      root: '0xc396ec13546bfb3e31a3c70348cda700908c4ed6310e51179afcc7fe5ff86332'
