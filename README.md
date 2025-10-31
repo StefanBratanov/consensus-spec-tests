@@ -1,5 +1,7 @@
 # Ethereum Proof-of-Stake Consensus Spec Tests
 
+[![consensus-specs](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2FStefanBratanov%2Fconsensus-spec-tests%2Frefs%2Fheads%2Fmaster%2F.last-release-tag&search=.*&label=consensus-specs)](https://github.com/ethereum/consensus-specs/releases)
+
 This repository contains test vectors for the Ethereum [Proof-of-Stake Consensus Spec](https://github.com/ethereum/consensus-specs).
 Other types of testing (network, fuzzing, benchmarking, etc.) are currently a work in progress, and will be hosted in separate repositories.
 The intention of this repository is to provide a solid base for Ethereum proof-of-stake clients (aka "beacon nodes") to consume as part of their unit-testing efforts around spec behavior.
