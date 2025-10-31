@@ -15,9 +15,6 @@ jobs:
       should_sync: ${{ steps.check.outputs.should_sync }}
       tag: ${{ steps.get_release.outputs.tag }}
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v5
-
       - name: Get latest release info
         id: get_release
         run: |
@@ -29,7 +26,7 @@ jobs:
       - name: Check if release already processed
         id: check
         run: |
-          LAST_TAG=$(cat .last-release-tag 2>/dev/null || echo "")
+          LAST_TAG=$(curl -s https://raw.githubusercontent.com/StefanBratanov/consensus-spec-tests/master/.last-release-tag || echo "")
           if [ "$LAST_TAG" = "${{ steps.get_release.outputs.tag }}" ]; then
             echo "No new release. Skipping sync."
             echo "should_sync=false" >> $GITHUB_OUTPUT
