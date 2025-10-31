@@ -1,6 +1,3 @@
-weight: 8280367631058869560
-withdrawal:
-  fee_recipient: '0x7c5c76432039405b5a5f4aa8908c9f813127c71c'
-  amount: 8791168343184101491
-  builder_index: 9897703525669990344
-  withdrawable_epoch: 4359732782023387340
+version https://git-lfs.github.com/spec/v1
+oid sha256:6084d37921bd8f66de8f68b82667dca9faebc6c06c6d200a0b3a8d6724a4b0b6
+size 211

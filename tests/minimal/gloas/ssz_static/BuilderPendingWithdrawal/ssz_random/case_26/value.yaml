@@ -1,4 +1,3 @@
-fee_recipient: '0xdd57940d062850ef4aa313170aceb3bb3dc94ecd'
-amount: 9053758629944083267
-builder_index: 6803654866085675015
-withdrawable_epoch: 5939790571018629391
+version https://git-lfs.github.com/spec/v1
+oid sha256:69e375dfc821eedb1682c63cdd51ef32239e4a9d902809314a0813b0d87c7864
+size 163

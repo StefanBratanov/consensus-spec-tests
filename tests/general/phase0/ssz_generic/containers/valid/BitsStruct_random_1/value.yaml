@@ -1,5 +1,3 @@
-A: '0x0f'
-B: '0x03'
-C: '0x01'
-D: '0x5e'
-E: '0x7c'
+version https://git-lfs.github.com/spec/v1
+oid sha256:df3f0ec9bd8b6cdcfd9973173b7ae46269760914e0dba27646216e47f4935dad
+size 50

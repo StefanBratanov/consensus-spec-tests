@@ -1,8 +1,3 @@
-A: [225]
-B: [1548387003684236636]
-C:
-- {A: 46482, B: 31039}
-D:
-- - A: 2076
-    B: [63471]
-    C: 237
+version https://git-lfs.github.com/spec/v1
+oid sha256:653c4f7a74a6acc35485d6acde9bc2301d01c5d072338448b2433c20efe3e48e
+size 103

@@ -1,5 +1,3 @@
-slot: 18446744073709551615
-validator_index: 9710324538316029687
-inclusion_list_committee_root: '0x45bd07bf78ceb60565235e9088e4689d9f323a911b1a720ad54428a8704a6880'
-transactions:
-- '0x00'
+version https://git-lfs.github.com/spec/v1
+oid sha256:18c226d8869fd0f0cc2c6642d696b688253919b3ad72af6acf385584b7b8050d
+size 187

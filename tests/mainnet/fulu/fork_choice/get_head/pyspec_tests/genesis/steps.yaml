@@ -1,5 +1,3 @@
-- checks:
-    genesis_time: 0
-    head:
-      slot: 0
-      root: '0xfaf1d49f24a371e292a08c51018829bab2cffab91f389c5d55ef6ca79c5740be'
+version https://git-lfs.github.com/spec/v1
+oid sha256:b801d5b3b0d1f8bb7fa3da285d7d5d3b70555769ba2e0ff8c0b63cf1e5e4a971
+size 135

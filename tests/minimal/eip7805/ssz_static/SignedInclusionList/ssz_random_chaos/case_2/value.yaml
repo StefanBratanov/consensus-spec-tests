@@ -1,6 +1,3 @@
-message:
-  slot: 9670935497964779110
-  validator_index: 0
-  inclusion_list_committee_root: '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-  transactions: []
-signature: '0x0789964d14b8280f3a77b3b4f5e565801af391978884f1e7f16dcb2a2afe06b93d0ad8a4e5385ae4b18555f91113b6ae828925f1fef94dcb27e25139b45b6b1fc9c7d9b2743e08009b78ee61897f22a465cb8368b579792bb32d52f3dc121558'
+version https://git-lfs.github.com/spec/v1
+oid sha256:f04a0ad895026b1a2af32559ec47cd45f2c2ef1037338e5de8865a3fcd6aad12
+size 387

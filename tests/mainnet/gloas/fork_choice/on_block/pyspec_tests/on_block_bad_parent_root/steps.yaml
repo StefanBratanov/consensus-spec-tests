@@ -1,16 +1,3 @@
-- {tick: 0}
-- checks:
-    time: 0
-    head:
-      slot: 0
-      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
-    justified_checkpoint:
-      epoch: 0
-      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
-    finalized_checkpoint:
-      epoch: 0
-      root: '0x4c6c10fd6d846002aa1311ce3cd0decc3223911f0defe7c034a6f22f1c947a85'
-    proposer_boost_root: '0x0000000000000000000000000000000000000000000000000000000000000000'
-- {block: 
-    block_0xa71cd4223e951ac7f978757b4e22848edbc851dddacee7d4838667a9d3d3029c, 
-    valid: false}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cbdd24af84a631844f30ae9268fac143e1d12568d05d757964fab5bd1fb485f
+size 585

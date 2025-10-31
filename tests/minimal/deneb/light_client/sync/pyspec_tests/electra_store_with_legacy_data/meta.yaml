@@ -1,4 +1,3 @@
-genesis_validators_root: '0x0a08c27fe4ece2483f9e581f78c66379a06f96e9c24cd1390594ff939b26f95b'
-trusted_block_root: '0x25f847eb4b61940643cb512bde4af68d55daa684d2ed5ff333edeb0d0e95f963'
-bootstrap_fork_digest: '0x0cbce901'
-store_fork_digest: '0x9acb230d'
+version https://git-lfs.github.com/spec/v1
+oid sha256:3653f27b7ac2fa30d98bd23b8a8643d2048c6226e91d14a04fad3552842a7e24
+size 251

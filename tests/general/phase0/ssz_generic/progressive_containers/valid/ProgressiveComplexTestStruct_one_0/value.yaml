@@ -1,16 +1,3 @@
-A: 225
-B: [981]
-C: '0x03'
-D: [1548387003684236636]
-E:
-- {A: 46482, B: 31039}
-F:
-- - A: 2076
-    B: [63471]
-    C: 237
-G:
-- {A: 46}
-H:
-- A: 58
-  B: [63799]
-  C: '0x03'
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f0cd0e43fda9723c0b3fff4f15bfd7f91e3b3bfb4e37ab093ae68ae09343676
+size 168
