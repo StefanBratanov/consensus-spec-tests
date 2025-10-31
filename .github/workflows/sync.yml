@@ -5,12 +5,15 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour
-  workflow_dispatch:     # manual trigger
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
-  sync-tests-new-consensus-specs-releases:
+  check-release:
     runs-on: ubuntu-latest
+    outputs:
+      should_sync: ${{ steps.check.outputs.should_sync }}
+      tag: ${{ steps.get_release.outputs.tag }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v5
@@ -24,23 +27,29 @@ jobs:
           echo "tag=$TAG" >> $GITHUB_OUTPUT
 
       - name: Check if release already processed
-        id: check_release
+        id: check
         run: |
           LAST_TAG=$(cat .last-release-tag 2>/dev/null || echo "")
-          NEW_TAG="${{ steps.get_release.outputs.tag }}"
-          echo "Last tag: $LAST_TAG"
-          if [ "$LAST_TAG" = "$NEW_TAG" ]; then
-            echo "No new release. Exiting."
-            exit 0
+          if [ "$LAST_TAG" = "${{ steps.get_release.outputs.tag }}" ]; then
+            echo "No new release. Skipping sync."
+            echo "should_sync=false" >> $GITHUB_OUTPUT
+          else
+            echo "New release detected."
+            echo "should_sync=true" >> $GITHUB_OUTPUT
           fi
+
+  sync-tests:
+    needs: check-release
+    if: needs.check-release.outputs.should_sync == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
 
       - name: Download and extract tests
         run: |
-          TAG="${{ steps.get_release.outputs.tag }}"
-
-          # cleanup tests from previous release
+          TAG="${{ needs.check-release.outputs.tag }}"
           rm -rf tests/
-
           for name in general mainnet minimal; do
             curl -L "https://github.com/ethereum/consensus-specs/releases/download/$TAG/$name.tar.gz" -o "$name.tar.gz"
             tar -xzf "$name.tar.gz"
@@ -48,13 +57,13 @@ jobs:
           done
 
       - name: Save new release tag
-        run: echo "${{ steps.get_release.outputs.tag }}" > .last-release-tag
+        run: echo "${{ needs.check-release.outputs.tag }}" > .last-release-tag
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git lfs install
-          git add .
-          git commit -m "Add tests from release ${{ steps.get_release.outputs.tag }}"
+          git add -A
+          git commit -m "Add tests from release ${{ needs.check-release.outputs.tag }}" || echo "No changes to commit"
           git push origin HEAD:${{ github.ref_name }}
