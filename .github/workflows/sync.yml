@@ -1,0 +1,60 @@
+name: Sync tests from new consensus-specs releases
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # every hour
+  workflow_dispatch:     # manual trigger
+
+jobs:
+  sync-tests-new-consensus-specs-releases:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Get latest release info
+        id: get_release
+        run: |
+          API="https://api.github.com/repos/ethereum/consensus-specs/releases"
+          TAG=$(curl -s $API | jq -r '.[0].tag_name')
+          echo "Latest tag: $TAG"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Check if release already processed
+        id: check_release
+        run: |
+          LAST_TAG=$(cat .last-release-tag 2>/dev/null || echo "")
+          NEW_TAG="${{ steps.get_release.outputs.tag }}"
+          echo "Last tag: $LAST_TAG"
+          if [ "$LAST_TAG" = "$NEW_TAG" ]; then
+            echo "No new release. Exiting."
+            exit 0
+          fi
+
+      - name: Download and extract tests
+        run: |
+          TAG="${{ steps.get_release.outputs.tag }}"
+
+          # cleanup tests from previous release
+          rm -rf tests/
+
+          for name in general mainnet minimal; do
+            curl -L "https://github.com/ethereum/consensus-specs/releases/download/$TAG/$name.tar.gz" -o "$name.tar.gz"
+            tar -xzf "$name.tar.gz"
+            rm "$name.tar.gz"
+          done
+
+      - name: Save new release tag
+        run: echo "${{ steps.get_release.outputs.tag }}" > .last-release-tag
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git lfs install
+          git add .
+          git commit -m "Add tests from release ${{ steps.get_release.outputs.tag }}"
+          git push origin HEAD:${{ github.ref_name }}
