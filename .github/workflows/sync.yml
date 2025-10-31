@@ -5,8 +5,8 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *'  # every hour
+  workflow_dispatch:     # manual trigger
 
 jobs:
   check-release:
@@ -49,6 +49,7 @@ jobs:
       - name: Download and extract tests
         run: |
           TAG="${{ needs.check-release.outputs.tag }}"
+          # cleanup tests from previous release
           rm -rf tests/
           for name in general mainnet minimal; do
             curl -L "https://github.com/ethereum/consensus-specs/releases/download/$TAG/$name.tar.gz" -o "$name.tar.gz"
@@ -65,5 +66,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git lfs install
           git add -A
-          git commit -m "Add tests from release ${{ needs.check-release.outputs.tag }}" || echo "No changes to commit"
+          git commit -m "Add tests from release ${{ needs.check-release.outputs.tag }}"
           git push origin HEAD:${{ github.ref_name }}
